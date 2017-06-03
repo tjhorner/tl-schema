@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>help.appChangelog // TL-Schema</title>
+    <title>upload.fileCdnRedirect // TL-Schema</title>
     <link rel="stylesheet" href="../css/styles.css" media="screen" title="no title">
   </head>
   <body>
     <div class="content">
-      <a href="../#constructor-help.appChangelog">Back to Schema</a>
+      <a href="../#constructor-upload.fileCdnRedirect">Back to Schema</a>
 
-      <h1><code>help.appChangelog</code></h1>
+      <h1><code>upload.fileCdnRedirect</code></h1>
 
       <h2>Parameters</h2>
 
@@ -28,22 +28,10 @@
         
         <tr>
           <td>
-            message
+            dc_id
           </td>
           <td>
-            <a href="../type/string">string</a>
-          </td>
-          <td>
-            None
-          </td>
-        </tr>
-        
-        <tr>
-          <td>
-            media
-          </td>
-          <td>
-            <a href="../type/MessageMedia">MessageMedia</a>
+            <a href="../type/int">int</a>
           </td>
           <td>
             None
@@ -52,10 +40,34 @@
         
         <tr>
           <td>
-            entities
+            file_token
           </td>
           <td>
-            <a href="../type/Vector&lt;MessageEntity&gt;">Vector&lt;MessageEntity&gt;</a>
+            <a href="../type/bytes">bytes</a>
+          </td>
+          <td>
+            None
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            encryption_key
+          </td>
+          <td>
+            <a href="../type/bytes">bytes</a>
+          </td>
+          <td>
+            None
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            encryption_iv
+          </td>
+          <td>
+            <a href="../type/bytes">bytes</a>
           </td>
           <td>
             None
@@ -64,7 +76,7 @@
         
       </table>
 
-      <h2>Constructs <a href="../type/help.AppChangelog">help.AppChangelog</a></h2>
+      <h2>Constructs <a href="../type/upload.File">upload.File</a></h2>
     </div>
   </body>
 </html>
