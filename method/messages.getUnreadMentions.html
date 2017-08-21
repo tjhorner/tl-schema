@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>inputMediaUploadedThumbDocument // TL-Schema</title>
+    <title>messages.getUnreadMentions // TL-Schema</title>
     <link rel="stylesheet" href="../css/styles.css" media="screen" title="no title">
   </head>
   <body>
     <div class="content">
-      <a href="../#constructor-inputMediaUploadedThumbDocument">Back to Schema</a>
+      <a href="../#method-messages.getUnreadMentions">Back to Schema</a>
 
-      <h1><code>inputMediaUploadedThumbDocument</code></h1>
+      <h1><code>messages.getUnreadMentions</code></h1>
 
       <h2>Parameters</h2>
 
@@ -28,22 +28,10 @@
         
         <tr>
           <td>
-            file
+            peer
           </td>
           <td>
-            <a href="../type/InputFile">InputFile</a>
-          </td>
-          <td>
-            None
-          </td>
-        </tr>
-        
-        <tr>
-          <td>
-            thumb
-          </td>
-          <td>
-            <a href="../type/InputFile">InputFile</a>
+            <a href="../type/InputPeer">InputPeer</a>
           </td>
           <td>
             None
@@ -52,22 +40,10 @@
         
         <tr>
           <td>
-            mime_type
+            offset_id
           </td>
           <td>
-            <a href="../type/string">string</a>
-          </td>
-          <td>
-            None
-          </td>
-        </tr>
-        
-        <tr>
-          <td>
-            attributes
-          </td>
-          <td>
-            <a href="../type/Vector&lt;DocumentAttribute&gt;">Vector&lt;DocumentAttribute&gt;</a>
+            <a href="../type/int">int</a>
           </td>
           <td>
             None
@@ -76,10 +52,10 @@
         
         <tr>
           <td>
-            caption
+            add_offset
           </td>
           <td>
-            <a href="../type/string">string</a>
+            <a href="../type/int">int</a>
           </td>
           <td>
             None
@@ -88,19 +64,43 @@
         
         <tr>
           <td>
-            stickers
+            limit
           </td>
           <td>
-            <a href="../type/Vector&lt;InputDocument&gt;">Vector&lt;InputDocument&gt;</a>
+            <a href="../type/int">int</a>
           </td>
           <td>
-            0
+            None
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            max_id
+          </td>
+          <td>
+            <a href="../type/int">int</a>
+          </td>
+          <td>
+            None
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            min_id
+          </td>
+          <td>
+            <a href="../type/int">int</a>
+          </td>
+          <td>
+            None
           </td>
         </tr>
         
       </table>
 
-      <h2>Constructs <a href="../type/InputMedia">InputMedia</a></h2>
+      <h2>Returns <a href="../type/messages.Messages">messages.Messages</a></h2>
     </div>
   </body>
 </html>
