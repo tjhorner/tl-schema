@@ -8,6 +8,7 @@ pre{
   overflow-x: auto;
   background: #ecf3f8;
   padding: 10px;
+  padding-top: 0;
 }
 
 table{
